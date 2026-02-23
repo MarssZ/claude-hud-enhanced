@@ -1,8 +1,29 @@
 # Changelog
 
-All notable changes to Claude HUD will be documented in this file.
+All notable changes to Claude HUD Enhanced will be documented in this file.
 
-## [0.0.7] - 2026-02-06
+## [0.1.0] - 2026-02-23
+
+### Added
+- **API 环境变量显示** - 显示 ANTHROPIC_BASE_URL、ANTHROPIC_AUTH_TOKEN、ANTHROPIC_MODEL 配置
+- **增强的用量追踪** - 改进的 API 使用率显示和缓存机制
+- **中文文档支持** - 添加完整的中文 README 和文档
+- **发布配置修复** - 添加 .npmignore 和 package.json files 字段，确保 dist/ 被正确发布
+- **发布前检查脚本** - scripts/pre-publish-check.sh 自动验证发布包
+- **安装问题文档** - docs/INSTALLATION-ISSUES.md 详细说明常见问题和解决方案
+
+### Changed
+- Fork from jarrodwatts/claude-hud v0.0.7
+- 项目名称改为 claude-hud-enhanced
+- 优化安装流程和用户体验
+
+### Fixed
+- 修复插件发布时缺少 dist/ 目录的问题
+- 修复 Windows 平台路径检测问题
+
+---
+
+## [0.0.7] - 2026-02-06 (upstream)
 
 ### Changed
 - **Redesigned default layout** — clean 2-line display replaces the previous multi-line default

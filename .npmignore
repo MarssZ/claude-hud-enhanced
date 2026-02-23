@@ -1,0 +1,40 @@
+# .npmignore - 控制 npm 发布时包含的文件
+# 注意：这个文件会覆盖 .gitignore 的规则
+
+# 开发文件（不发布）
+*.md
+!README.md
+!README-ENHANCED.md
+!LICENSE
+.github/
+.editorconfig
+.gitignore
+tsconfig.json
+CLAUDE.md
+CLAUDE.README.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+MAINTAINERS.md
+RELEASING.md
+SECURITY.md
+SUPPORT.md
+TESTING.md
+
+# 源代码（不发布，只发布编译后的）
+src/
+tests/
+
+# 依赖（不发布）
+node_modules/
+
+# 临时文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 重要：确保这些文件被包含
+!dist/
+!.claude-plugin/
+!package.json
+!hud-wrapper.js
+!commands/

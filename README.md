@@ -14,7 +14,8 @@ Claude Code 插件，实时显示会话状态 — 上下文使用率、工具活
 
 **步骤 1：从 GitHub 安装**
 ```
-claude plugin install https://github.com/MarssZ/claude-hud-enhanced
+claude plugin marketplace add MarssZ/claude-hud-enhanced
+claude plugin install https://github.com/MarssZ/claude-hud-enhanced.git
 ```
 
 或者本地开发安装：
@@ -32,6 +33,8 @@ claude plugin install .
 ```
 
 完成！HUD 会立即显示 — 无需重启。
+
+> **注意：** 如果遇到 "Cannot find module dist/index.js" 错误，说明插件未正确构建。请查看 [安装问题排查](docs/INSTALLATION-ISSUES.md)。
 
 ---
 
