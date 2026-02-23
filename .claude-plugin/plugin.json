@@ -1,0 +1,13 @@
+{
+  "name": "claude-hud-enhanced",
+  "description": "Enhanced Claude HUD with API environment variables display (ANTHROPIC_BASE_URL, ANTHROPIC_AUTH_TOKEN, ANTHROPIC_MODEL)",
+  "version": "0.1.0",
+  "author": {
+    "name": "Marss.ai",
+    "url": "https://github.com/MarssZ"
+  },
+  "homepage": "https://github.com/MarssZ/claude-hud",
+  "repository": "https://github.com/MarssZ/claude-hud",
+  "license": "MIT",
+  "keywords": ["hud", "monitoring", "statusline", "context", "api-env", "claude-code"]
+}

@@ -1,0 +1,20 @@
+{
+  "lineLayout": "compact",
+  "pathLevels": 1,
+  "showSeparators": false,
+  "display": {
+    "showModel": true,
+    "showContextBar": true,
+    "showTools": true,
+    "showAgents": true,
+    "showTodos": true,
+    "showUsage": true,
+    "contextValue": "percent",
+    "autocompactBuffer": "enabled"
+  },
+  "gitStatus": {
+    "enabled": true,
+    "showDirty": true,
+    "showAheadBehind": false
+  }
+}

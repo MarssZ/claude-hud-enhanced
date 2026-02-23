@@ -1,0 +1,20 @@
+{
+  "name": "claude-hud-enhanced",
+  "owner": {
+    "name": "Marss.ai",
+    "email": "contact@marss.ai"
+  },
+  "metadata": {
+    "description": "Enhanced Claude HUD with API environment variables display",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-hud-enhanced",
+      "source": "./",
+      "description": "Real-time statusline showing context usage, API environment (BASE_URL, AUTH_TOKEN, MODEL), and more. Fork of claude-hud with enhanced features.",
+      "category": "monitoring",
+      "tags": ["hud", "statusline", "monitoring", "context", "api-env"]
+    }
+  ]
+}
